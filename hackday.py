@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import altair as alt 
 import requests
-import matplotlib.pyplot as plt
 import pandas as pd 
 import numpy as np
 from pyscbwrapper import SCB

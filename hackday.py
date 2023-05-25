@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 import altair as alt 
-from requests_html import HTMLSession
 import requests
 import matplotlib.pyplot as plt
 import pandas as pd 
@@ -9,8 +8,6 @@ import numpy as np
 from pyscbwrapper import SCB
 import pyarrow
 import re 
-
-
 
 
 st.title(':technologist::fish:')
